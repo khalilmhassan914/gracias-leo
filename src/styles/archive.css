@@ -1,0 +1,104 @@
+@import './base.css';
+
+/* The archive: an editorial list, one line per entry, in native document flow. */
+.archive { display: block; padding: calc(var(--bar-h) + clamp(2rem, 8vh, 5rem)) var(--pad) 6rem; max-width: 84rem; margin: 0 auto; }
+.arc__head { display: grid; gap: 1.25rem; margin-bottom: clamp(2.5rem, 7vh, 4.5rem); }
+.arc__back a { display: inline-flex; align-items: center; min-height: 2.75rem; color: var(--sky); }
+.arc__head .title { font-size: clamp(3.25rem, 10vw, 9rem); }
+.arc__intro { max-width: 40rem; font: 400 clamp(1.375rem, 2.2vw, 1.75rem)/1.3 var(--serif); }
+
+.filters { display: grid; gap: 1.25rem 2rem; align-items: end; padding: 1.5rem 0; border-top: 1px solid rgb(243 240 232 / 0.2); border-bottom: 1px solid rgb(243 240 232 / 0.2); }
+.field { display: grid; gap: 0.4rem; }
+.field label, .field legend { font-size: 0.9375rem; font-weight: 600; }
+.field input[type='search'], .field select { min-height: 3rem; padding: 0 0.9rem; background: var(--ink-2); border: 1px solid rgb(243 240 232 / 0.4); border-radius: 2px; width: 100%; font-size: 1.0625rem; }
+.field input::placeholder { color: #8C9096; }
+.field--view { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; align-items: center; }
+.field--view legend { float: left; margin-right: 1.5rem; padding: 0; line-height: 2.75rem; }
+.field--view label { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.75rem; font-weight: 400; font-size: 1rem; cursor: pointer; }
+.field--view input { width: 1.2rem; height: 1.2rem; accent-color: var(--sky); }
+.filters__status { display: flex; flex-wrap: wrap; align-items: center; gap: 0 1.25rem; color: var(--muted); font-size: 1rem; min-height: 2.75rem; }
+@media (min-width: 900px) {
+  .filters { grid-template-columns: minmax(16rem, 2fr) minmax(9rem, 1fr) auto; }
+  .filters__status { grid-column: 1 / -1; }
+}
+
+.jump { margin: 1.5rem 0 0; }
+.jump ul { display: flex; flex-wrap: wrap; gap: 0 1.5rem; }
+.jump a { display: inline-flex; align-items: center; min-height: 2.75rem; font-size: 1rem; }
+.empty { margin: 3rem 0; max-width: 34rem; font: 400 1.5rem/1.3 var(--serif); }
+
+.cat { margin-top: clamp(4rem, 12vh, 7.5rem); scroll-margin-top: calc(var(--bar-h) + 1rem); }
+.cat__head { display: grid; gap: 0.75rem; margin-bottom: 1.5rem; }
+.cat__head h2, .year__head { font: 400 clamp(2.25rem, 5.5vw, 4.5rem)/0.95 var(--display); text-transform: uppercase; letter-spacing: 0.01em; display: flex; align-items: baseline; gap: 1rem; }
+.count { font: 500 1rem/1 var(--sans); letter-spacing: 0; color: var(--sky); }
+.cat__head p { max-width: 42rem; color: var(--muted); font-size: 1.0625rem; }
+.year { margin-top: clamp(3rem, 8vh, 5rem); }
+
+.list { border-top: 1px solid rgb(243 240 232 / 0.2); }
+.it { border-bottom: 1px solid rgb(243 240 232 / 0.2); }
+.it summary { display: grid; grid-template-columns: 1fr; gap: 0.15rem 1.5rem; padding: 0.95rem 0; cursor: pointer; list-style: none; min-height: 3.25rem; align-items: baseline; }
+.it summary::-webkit-details-marker { display: none; }
+.it summary:hover .it__title { color: var(--sky); }
+.it__when { font: 400 1.375rem/1.1 var(--display); letter-spacing: 0.02em; color: var(--white); }
+.it__title { font-size: 1.1875rem; font-weight: 500; line-height: 1.3; }
+.it__sub { color: var(--muted); font-weight: 400; }
+.it__kind { font-size: 0.9375rem; color: var(--muted); }
+.it__kind::before { content: '+ '; color: var(--sky); font-weight: 600; }
+details[open] > summary .it__kind::before { content: '− '; }
+.it--title .it__when { color: var(--gold); }
+.it--runner-up .it__when, .it--event .it__when { color: var(--muted); }
+.it--tribute .it__when, .it--moment .it__when { color: var(--sky); }
+@media (min-width: 700px) {
+  .it summary { grid-template-columns: 9.5rem 1fr 12rem; }
+  .it__kind { text-align: right; }
+}
+
+.it__detail { padding: 0.5rem 0 2.25rem; display: grid; gap: 1.5rem; }
+.it__body { max-width: 40rem; font: 400 1.5rem/1.3 var(--serif); }
+.it blockquote p { max-width: 40rem; font: italic 400 clamp(1.625rem, 3vw, 2.25rem)/1.2 var(--serif); }
+.it__tr, .it__caveat { max-width: 40rem; color: var(--muted); font-size: 1rem; }
+.it__tr q { color: var(--white); font-style: italic; }
+.it__rows { display: grid; gap: 0.85rem; max-width: 46rem; }
+.it__rows > div { display: grid; gap: 0.1rem; }
+.it__rows dt { font-size: 0.9375rem; font-weight: 600; color: var(--muted); }
+.it__rows dd { font-size: 1.0625rem; }
+.it__src { display: grid; gap: 0.4rem; }
+.it__src a { overflow-wrap: anywhere; }
+.grade { display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; border: 1px solid currentColor; border-radius: 50%; font-size: 0.8125rem; font-weight: 700; margin-right: 0.35rem; }
+.grade--A { color: var(--gold); }
+.grade--B { color: var(--sky); }
+.grade--C, .grade--D { color: var(--muted); }
+.it__photo { max-width: 34rem; }
+.it__photo figcaption { padding-top: 0.6rem; font-size: 0.9375rem; }
+@media (min-width: 700px) {
+  .it__detail { padding-left: 11rem; }
+  .it__rows > div { grid-template-columns: 9rem 1fr; gap: 1rem; }
+}
+
+/* Eight abstract lights, one per Ballon d'Or. Not a picture of the trophy. */
+.ballon { margin: 0 0 2.5rem; display: grid; gap: 1.25rem; }
+.ballon__lights { display: flex; flex-wrap: wrap; gap: clamp(0.9rem, 3vw, 2.5rem); padding: clamp(1.75rem, 5vw, 3rem) 0 0.5rem; }
+.ballon__lights { align-items: end; }
+.ballon__year { display: grid; justify-items: center; gap: 0.9rem; }
+.ballon__year--photo { justify-items: start; gap: 0.5rem; width: min(100%, 15rem); }
+.ballon__btn { display: block; width: 100%; padding: 0; border: 0; background: var(--ink-2); cursor: zoom-in; aspect-ratio: 4 / 5; overflow: hidden; }
+.ballon__btn picture, .ballon__btn img { width: 100%; height: 100%; object-fit: cover; object-position: var(--fx, 50%) var(--fy, 30%); }
+.ballon__cap { font-size: 0.875rem; line-height: 1.35; color: var(--muted); }
+.gallery__group { font: 400 1.5rem/1.1 var(--display); text-transform: uppercase; letter-spacing: 0.03em; margin: 2.5rem 0 1rem; }
+.it__photo-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
+.ballon__lights i { width: clamp(2rem, 5.2vw, 4.25rem); aspect-ratio: 1; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #F6E6A6, var(--gold) 45%, #8A6C16 100%); box-shadow: 0 0 2.5rem 0.25rem rgb(212 175 55 / 0.28); }
+.ballon__lights b { font: 400 1.125rem/1 var(--display); letter-spacing: 0.03em; }
+.ballon figcaption { max-width: 42rem; color: var(--muted); font-size: 1rem; }
+.ballon figcaption strong { color: var(--white); font-weight: 600; }
+
+.gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.gallery__btn { display: block; width: 100%; padding: 0; border: 0; background: var(--ink-2); cursor: zoom-in; aspect-ratio: 4 / 5; }
+.gallery__btn picture, .gallery__btn img { width: 100%; height: 100%; object-fit: cover; object-position: var(--fx, 50%) var(--fy, 40%); }
+.gallery__cap { padding-top: 0.5rem; font-size: 0.9375rem; line-height: 1.4; }
+@media (min-width: 900px) { .gallery { grid-template-columns: repeat(4, 1fr); gap: 1.5rem; } }
+
+.arc__notes { margin-top: clamp(4rem, 12vh, 7.5rem); padding-top: 2rem; border-top: 1px solid rgb(243 240 232 / 0.2); display: grid; gap: 1rem; max-width: 46rem; color: var(--muted); font-size: 1.0625rem; }
+.arc__notes h2 { font: 600 1.0625rem/1.3 var(--sans); color: var(--white); margin-top: 1rem; }
+
+html.rm *, html.rm *::before, html.rm *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }

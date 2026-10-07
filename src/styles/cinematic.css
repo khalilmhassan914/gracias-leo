@@ -1,0 +1,156 @@
+@import './film.css';
+
+/* The cinematic experience. It shares the story's components (dated lists, quotations, the
+   letter, the footer) and gives them a darker navy world built around the farewell shirt:
+   monumental numerals with a warm photograph inside them, large photography, quiet serif copy.
+   This stylesheet is enabled only while this experience is on screen. */
+
+:root {
+  --ink: #060A11;
+  --ink-2: #0B1320;
+  --ink-3: #142033;
+  --warm: #E9B872;
+  --muted: #AEB4BD;
+}
+html { background: var(--ink); }
+body { background:
+  radial-gradient(120% 60% at 80% 0%, rgb(20 40 70 / 0.5), rgb(6 10 17 / 0) 60%),
+  var(--ink); }
+.bar { background: linear-gradient(to bottom, rgb(6 10 17 / 0.9), rgb(6 10 17 / 0.55) 70%, rgb(6 10 17 / 0)); }
+.bar__btn, .lang, .bar__switch { font-size: 0.875rem; }
+figure.ph { max-width: calc(var(--nw, 4000) * 2px); }   /* generously scaled photography */
+.ph figcaption { color: var(--ivory); }
+
+.chapbar { position: fixed; z-index: 60; inset: 0 0 auto 0; height: 2px; background: rgb(243 240 232 / 0.08); pointer-events: none; }
+.chapbar i { display: block; height: 100%; background: var(--sky); transform-origin: 0 50%; transform: scaleX(0); }
+
+/* ── Opening: the shirt, its number, and the first memory through the zero ── */
+.cx-open { padding: 0; }
+.cx-open__stage { position: relative; }
+.cx-open__jersey { position: relative; height: 84svh; min-height: 28rem; overflow: hidden; }
+.cx-open__jersey .ph, .cx-open__mem .ph { position: absolute; inset: 0; max-width: none; background: var(--ink-2); }
+.cx-open__jersey .ph::after { content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top, var(--ink) 2%, rgb(6 10 17 / 0) 46%), radial-gradient(90% 80% at 50% 45%, rgb(6 10 17 / 0) 40%, rgb(6 10 17 / 0.7)); }
+.cx-open .ph figcaption { position: absolute; z-index: 2; right: var(--pad); bottom: 0.75rem; padding: 0; font-size: 0.8125rem; text-align: right; max-width: 24rem; text-shadow: 0 1px 8px rgb(6 10 17 / 0.95); }
+.cx-open__copy { position: relative; z-index: 4; margin-top: -11rem; padding: 0 var(--pad) 4rem; display: grid; gap: 1rem; max-width: 46rem; }
+.cx-open__copy .title { font-size: clamp(3.5rem, 10vw, 9.5rem); text-shadow: 0 2px 40px rgb(6 10 17 / 0.6); }
+.cx-open__copy .scope { text-shadow: 0 1px 12px rgb(6 10 17 / 0.9); }
+.cx-scroll { display: none; }
+.cx-open__mem { position: relative; height: 86svh; min-height: 26rem; overflow: hidden; }
+.cx-open__mem .ph::after { content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top, rgb(6 10 17 / 0.92), rgb(6 10 17 / 0) 55%), linear-gradient(rgb(233 184 114 / 0.1), rgb(233 184 114 / 0)); }
+.cx-open__settle { position: relative; z-index: 3; margin-top: -12rem; padding: 0 var(--pad) 4rem; display: grid; gap: 1rem; }
+.cx-date { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25rem 1rem; }
+.cx-date time { font: 400 clamp(1.75rem, 3vw, 2.5rem)/1 var(--display); text-transform: uppercase; letter-spacing: 0.03em; }
+.cx-date span { color: var(--warm); font-weight: 500; }
+
+html.cx-on .cx-open__stage { height: 100svh; overflow: hidden; }
+html.cx-on .cx-open__jersey { position: absolute; inset: 0; height: auto; min-height: 0; z-index: 1; overflow: visible; will-change: transform; }
+html.cx-on .cx-open__mem { position: absolute; inset: 0; height: auto; min-height: 0; z-index: 2; opacity: 0; }
+html.cx-on .cx-open__copy { position: absolute; left: 0; bottom: calc(var(--dock-h) + 3.5rem); margin: 0; padding: 0 var(--pad); }
+html.cx-on .cx-open .cx-jersey figcaption { bottom: calc(var(--dock-h) + 0.5rem); }
+html.cx-on .cx-scroll { display: flex; align-items: center; gap: 0.6rem; position: absolute; z-index: 4; left: 50%; bottom: calc(var(--dock-h) + 0.9rem); transform: translateX(-50%); margin: 0; font-size: 0.8125rem; color: var(--ivory); }
+html.cx-on .cx-scroll::after { content: ''; width: 1px; height: 1.5rem; background: linear-gradient(var(--sky), rgb(117 170 219 / 0)); }
+html.cx-on .cx-open__settle { position: absolute; z-index: 5; left: 0; right: 0; bottom: calc(var(--dock-h) + 2.5rem); margin: 0; padding: 0 var(--pad); opacity: 0; }
+html.cx-on .cx-open__mem figcaption { bottom: calc(var(--dock-h) + 0.4rem); }
+@media (min-width: 900px) {
+  html.cx-on .cx-open__copy { bottom: 11svh; }
+  html.cx-on .cx-open__settle { bottom: 10svh; }
+  html.cx-on .cx-scroll { bottom: 3svh; }
+}
+
+/* ── Chapters ─────────────────────────────────────────────────────────────── */
+.cx-ch { position: relative; padding: clamp(5rem, 16vh, 11rem) var(--pad); display: grid; gap: clamp(2rem, 6vh, 4.5rem); }
+.cx-head { max-width: 64rem; }
+.cx-head .scene__title { color: var(--warm); }
+/* A monumental numeral. Where the chapter has a photograph, the glyphs are a warm window onto it. */
+.cx-num { margin: 0 0 1.25rem -0.04em; font: 400 clamp(6rem, 27vw, 25rem)/0.8 var(--display); letter-spacing: -0.01em; color: transparent; -webkit-text-stroke: 1px rgb(117 170 219 / 0.45); white-space: nowrap; }
+.cx-num--lit { -webkit-text-stroke: 0; background-image: linear-gradient(rgb(233 184 114 / 0.28), rgb(233 184 114 / 0.06)), var(--img); background-size: cover; background-position: 50% 30%; -webkit-background-clip: text; background-clip: text; }
+.cx-main { display: grid; justify-items: center; }
+.cx-main figure.ph { width: min(100%, calc(88svh * var(--nw) / var(--nh))); }
+.cx-main figure.ph picture { display: block; aspect-ratio: calc(var(--nw) / var(--nh)); max-height: 88svh; }
+.cx-main .ph img { box-shadow: 0 2rem 6rem rgb(0 0 0 / 0.5); }
+.cx-body { display: grid; gap: 2.5rem; }
+.cx-body .dates { margin-top: 0; }
+.cx-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-content: start; }
+.cx-pair figure.ph picture { display: block; aspect-ratio: 4 / 5; }
+.cx-pair .ph:only-child { grid-column: 1 / -1; max-width: 24rem; }
+.cx-ch .date__place { color: var(--warm); }
+@media (min-width: 900px) {
+  .cx-body { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: 3rem; align-items: start; }
+  .cx-body > .dates { grid-column: 1; }
+  .cx-body > .cx-pair { grid-column: 2; grid-row: 1 / span 3; }
+  .cx-body > .quote, .cx-body > .after, .cx-body > .degree, .cx-body > .note { grid-column: 1; }
+  .cx-ch .date { grid-template-columns: 13rem 1fr; }
+}
+/* Mood: the difficult years stand alone with space around them; the victories open wide. */
+.cx-ch--alone { --accent: #9AA2AE; }
+.cx-ch--alone .cx-num { -webkit-text-stroke-color: rgb(154 162 174 / 0.4); }
+.cx-ch--alone .cx-num--lit { filter: grayscale(0.85) brightness(0.8); }
+.cx-ch--alone .cx-main { justify-items: end; }
+.cx-ch--alone .cx-main figure.ph { width: min(100%, calc(62svh * var(--nw) / var(--nh))); }
+.cx-ch--alone .cx-main figure.ph picture { max-height: 62svh; }
+.cx-ch--alone .cx-head .scene__title, .cx-ch--alone .date__place { color: #9AA2AE; }
+.cx-ch--quiet .cx-main figure.ph { width: min(100%, calc(74svh * var(--nw) / var(--nh))); }
+.cx-ch--quiet .cx-main figure.ph picture { max-height: 74svh; }
+
+/* The honorary degree keeps to the same dark palette here. */
+.degree { background: var(--ink-2); color: var(--ivory); border-top: 2px solid var(--gold); box-shadow: inset 0 0 0 1px rgb(243 240 232 / 0.08); }
+.degree__label { color: var(--gold); }
+.degree__src { color: var(--muted); }
+.degree a:hover { color: var(--sky); }
+.degree :focus-visible { outline-color: var(--sky); }
+
+/* ── Qatar ────────────────────────────────────────────────────────────────── */
+.cx-qatar { padding: 0; }
+.cx-qatar__lead { padding: clamp(6rem, 22vh, 13rem) var(--pad) clamp(5rem, 16vh, 9rem); }
+.cx-qatar__stage { position: relative; }
+.cx-qatar__before .ph { max-width: none; }
+.cx-qatar__before figure.ph picture { display: block; aspect-ratio: 3 / 2; }
+.cx-qatar__before .ph figcaption { padding: 0.6rem var(--pad) 0; }
+.cx-qatar__facts { padding: clamp(2.5rem, 8vh, 5rem) var(--pad); }
+.cx-qatar__facts .cx-num { font-size: clamp(3.5rem, 14vw, 12rem); margin-bottom: 1rem; }
+.cx-qatar__release { position: relative; min-height: 100svh; display: flex; align-items: flex-end; padding: var(--pad); padding-bottom: calc(var(--dock-h) + 2.5rem); overflow: hidden;
+  background: radial-gradient(ellipse at 50% 35%, #1B3A5C, #0A1420 62%, var(--ink)); }
+.cx-qatar__release figure.ph { position: absolute; inset: 50% auto auto 50%; translate: -50% -50%; width: min(100%, calc(var(--nw) * 2.2px)); height: min(100%, calc(var(--nh) * 2.2px)); max-width: none; background: none; }
+.cx-qatar__release .ph::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgb(6 10 17 / 0.85), rgb(6 10 17 / 0) 50%); }
+.cx-qatar__release .ph figcaption { position: absolute; z-index: 2; right: 1rem; top: calc(var(--bar-h) + 0.5rem); padding: 0; font-size: 0.8125rem; text-align: right; max-width: 60%; text-shadow: 0 1px 8px rgb(6 10 17 / 0.95); }
+.cx-qatar__words { position: relative; z-index: 3; }
+.cx-qatar__words .stars { position: static; justify-content: flex-start; margin-bottom: 1.25rem; }
+.cx-qatar__after { padding: clamp(4rem, 12vh, 8rem) var(--pad); display: grid; gap: 2rem; }
+.cx-qatar__after > figure.ph { width: min(100%, 34rem); justify-self: end; }
+.cx-qatar__after > figure.ph picture { display: block; aspect-ratio: 4 / 5; }
+
+html.cx-on .cx-qatar__stage { height: 100svh; overflow: hidden; }
+html.cx-on .cx-qatar__before { position: absolute; inset: 0; }
+html.cx-on .cx-qatar__before .ph { position: absolute; inset: 0; }
+html.cx-on .cx-qatar__before figure.ph picture { aspect-ratio: auto; height: 100%; }
+html.cx-on .cx-qatar__before .ph figcaption { position: absolute; right: var(--pad); top: calc(var(--bar-h) + 0.5rem); padding: 0; font-size: 0.8125rem; text-align: right; max-width: 60%; text-shadow: 0 1px 8px rgb(6 10 17 / 0.95); }
+html.cx-on .cx-qatar__stage::before { content: ''; position: absolute; z-index: 1; inset: 0; pointer-events: none; background: linear-gradient(to top, rgb(6 10 17 / 0.95) 20%, rgb(6 10 17 / 0.2) 70%); }
+html.cx-on .cx-qatar__facts { position: absolute; z-index: 2; left: 0; right: 0; bottom: calc(var(--dock-h) + 1rem); padding: 0 var(--pad); max-width: 44rem; }
+html.cx-on .cx-qatar__release { position: absolute; inset: 0; z-index: 3; min-height: 0; opacity: 0; visibility: hidden; }
+@media (max-width: 899px) {
+  html.cx-on .cx-qatar__facts .cx-num { font-size: clamp(3rem, 15vw, 4.5rem); margin-bottom: 0.5rem; }
+  .cx-qatar__release figure.ph { inset: calc(var(--bar-h) + 0.5rem) auto auto 50%; translate: -50% 0; height: min(66%, calc(var(--nh) * 2.2px)); }
+}
+@media (min-width: 900px) {
+  html.cx-on .cx-qatar__facts { bottom: 7svh; }
+  .cx-qatar__release { padding-bottom: 8svh; }
+}
+
+/* ── The letter: the same dark room, warm ivory type ──────────────────────── */
+.letter { background: linear-gradient(var(--ink), var(--ink-2) 30%, var(--ink-2) 70%, var(--ink)); color: var(--ivory); }
+.letter__label { color: var(--warm); }
+
+/* ── Ending: back to the number ───────────────────────────────────────────── */
+.cx-end { padding: 0; }
+.cx-end__stage { position: relative; min-height: 100svh; display: grid; align-content: end; justify-items: center; gap: 2rem; padding: calc(var(--bar-h) + 3rem) var(--pad) calc(var(--dock-h) + 4rem); overflow: hidden; text-align: center; }
+.cx-end__jersey { position: absolute; inset: 0; }
+.cx-end__jersey .ph { position: absolute; inset: 0; max-width: none; }
+.cx-end__jersey .ph::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 42%, rgb(6 10 17 / 0.15), rgb(6 10 17 / 0.9) 72%); }
+.cx-end__jersey .ph figcaption { position: absolute; z-index: 2; left: var(--pad); right: var(--pad); bottom: calc(var(--dock-h) + 0.5rem); padding: 0; font-size: 0.8125rem; text-align: center; }
+.cx-end .thanks, .cx-end .gracias__final { z-index: 2; text-shadow: 0 2px 24px rgb(6 10 17 / 0.9); }
+html.cx-on .cx-end__stage { height: 100svh; min-height: 0; display: block; padding: 0; }
+html.cx-on .cx-end .gracias__final { bottom: calc(var(--dock-h) + 12svh); }
+
+.foot { border-top-color: rgb(243 240 232 / 0.1); }

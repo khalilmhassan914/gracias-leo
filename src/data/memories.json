@@ -1,0 +1,1549 @@
+{
+  "version": 1,
+  "about": "The asset map: one entry per supplied photograph, with its label, chapter, placement, captions and focal points. Every entry is published. `npm run images` adds new files with status \"unreviewed\"; give them a chapter, captions and status \"approved\". See MEMORIES.md.",
+  "photos": [
+    {
+      "id": "argentina-world-cup-2014",
+      "file": "src/assets/pics/argentina-world-cup-2014.jpg",
+      "sha256": "40792f062ca91ecb18e8ac3a87371edb45f2665572f73421fe20b4e0d3cc3688",
+      "slot": "nights-main",
+      "status": "approved",
+      "tentativeIdentity": "Messi in Argentina’s dark-blue 2014 away shirt looking at the World Cup trophy on its plinth as he passes it.",
+      "verifiedEvent": "After the 2014 World Cup final, Germany 1–0 Argentina (a.e.t.), Maracanã, 13 July 2014. Verified from the trophy on its presentation plinth and the away kit Argentina wore in that final.",
+      "eventDate": "2014-07-13",
+      "photoDate": "2014-07-13",
+      "year": 2014,
+      "emotion": "loss; longing",
+      "focal": {
+        "desktop": [
+          45,
+          40
+        ],
+        "mobile": [
+          45,
+          40
+        ]
+      },
+      "preferredCrop": "Near square. Keep his eyes and the whole trophy.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "arg-final-2014",
+        "arg-wc-ball-2014"
+      ],
+      "caption": {
+        "en": "After the World Cup final, Maracanã, 13 July 2014.",
+        "es": "Después de la final del Mundial, Maracaná, 13 de julio de 2014."
+      },
+      "alt": {
+        "en": "Lionel Messi, in Argentina’s dark-blue shirt, looks sideways at the gold World Cup trophy standing on a plinth an arm’s length away.",
+        "es": "Lionel Messi, con la camiseta azul oscura de Argentina, mira de reojo la Copa del Mundo dorada, apoyada en un pedestal a un brazo de distancia."
+      },
+      "notes": "The copy supplied has been desaturated by an editor. It is shown as supplied.",
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "argentina-world-cup-2014.jpg",
+      "chapter": "nights",
+      "placement": "main:nights-main"
+    },
+    {
+      "id": "barcelona-beginning",
+      "file": "src/assets/pics/barcelona-beginning.jpg",
+      "sha256": "d8df399f9b854b4bf6074f147e1592fe200c853d90a78512e55e63fc37a3a78a",
+      "slot": "years-a",
+      "status": "approved",
+      "tentativeIdentity": "Messi on Ronaldinho’s back, celebrating at the Camp Nou in the 2004–05 Barcelona shirt (LFP sleeve patch, no shirt sponsor). Opponents in white. Consistent with the celebration of his first senior goal, v Albacete, 1 May 2005.",
+      "verifiedEvent": "",
+      "eventDate": "2005-05-01 (tentative)",
+      "photoDate": "",
+      "year": 2005,
+      "emotion": "joy; the beginning",
+      "focal": {
+        "desktop": [
+          50,
+          70
+        ],
+        "mobile": [
+          50,
+          70
+        ]
+      },
+      "preferredCrop": "4:5. Keep the raised hand and both faces.",
+      "photographer": "",
+      "source": {
+        "en": "Edited image carrying the mark “Ali 4k”",
+        "es": "Imagen editada con la marca «Ali 4k»"
+      },
+      "honours": [],
+      "caption": {
+        "en": "Messi on Ronaldinho’s back at the Camp Nou, 2004–05 season. Widely published as the celebration of his first goal; this copy carries no agency caption.",
+        "es": "Messi a caballito de Ronaldinho en el Camp Nou, temporada 2004–05. Publicada habitualmente como el festejo de su primer gol; esta copia no trae epígrafe de agencia."
+      },
+      "alt": {
+        "en": "A teenage Lionel Messi rides on Ronaldinho’s back, one arm raised and laughing, both in Barcelona’s blue and claret, with a blurred Camp Nou crowd behind.",
+        "es": "Un Lionel Messi adolescente va a caballito de Ronaldinho, con un brazo en alto y riendo, los dos de azulgrana, con la tribuna del Camp Nou desenfocada detrás."
+      },
+      "notes": "Identification rests on the kit season, the pairing with Ronaldinho, the white opponents and the stadium. High confidence, not confirmed against an agency caption, so the public caption says so. A grain filter has been added by an editor.",
+      "moments": [
+        "mom-first-goal-2005"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "barcelona-beginning.jpg",
+      "chapter": "years",
+      "placement": "main:years-a"
+    },
+    {
+      "id": "barcelona-european-night-2009",
+      "file": "src/assets/pics/barcelona-european-night-2009.jpg",
+      "sha256": "98cbf860227df1e403e2d765e8fa0219b7a4f2811710557eb7fa4b0b700be0fe",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi celebrating in the 2010–11 Barcelona home shirt (yellow collar and cuffs, yellow 10 on the shorts, UEFA Respect sleeve patch). NOT 2009: in 2008–09 Barcelona wore a halved shirt. Possibly the 2011 Champions League final at Wembley, like the next photograph, but nothing in the frame proves the match.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": 2011,
+      "emotion": "release; a goal celebration",
+      "focal": {
+        "desktop": [
+          50,
+          30
+        ],
+        "mobile": [
+          50,
+          30
+        ]
+      },
+      "preferredCrop": "4:5.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Celebrating a goal in a UEFA match, 2010–11 season. The match has not been confirmed.",
+        "es": "Festejo de un gol en un partido de la UEFA, temporada 2010–11. No se confirmó de qué partido se trata."
+      },
+      "alt": {
+        "en": "Lionel Messi shouts in celebration, fist clenched to his chest, in Barcelona’s 2010–11 shirt.",
+        "es": "Lionel Messi grita un gol con el puño apretado contra el pecho, con la camiseta del Barcelona de 2010–11."
+      },
+      "notes": "FILENAME DISAGREES WITH THE PICTURE. The file is named “2009” but the kit is from 2010–11. It is therefore not used beside the Rome 2009 date. Shown in the archive gallery only, with a caption that claims no match.",
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "barcelona-european-night-2009.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "barcelona-european-night-2011",
+      "file": "src/assets/pics/barcelona-european-night-2011.jpg",
+      "sha256": "0273bca08f3aa1314fa3e1c86bbf4fa249ffbdf6104d89d8cb4a09ae7bb6cc6d",
+      "slot": "years-c",
+      "status": "approved",
+      "tentativeIdentity": "Messi celebrating; Manchester United’s number 15 (Nemanja Vidić) behind him.",
+      "verifiedEvent": "UEFA Champions League final, Barcelona 3–1 Manchester United, Wembley, 28 May 2011. Verified from the match print on the shirt (“Final London 2011”) and the opponent’s shirt.",
+      "eventDate": "2011-05-28",
+      "photoDate": "2011-05-28",
+      "year": 2011,
+      "emotion": "release; joy",
+      "focal": {
+        "desktop": [
+          50,
+          25
+        ],
+        "mobile": [
+          50,
+          25
+        ]
+      },
+      "preferredCrop": "4:5. Keep both arms.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-ucl-2010-11"
+      ],
+      "caption": {
+        "en": "Champions League final, Wembley, 28 May 2011.",
+        "es": "Final de la Liga de Campeones, Wembley, 28 de mayo de 2011."
+      },
+      "alt": {
+        "en": "Lionel Messi runs with his arms flung wide and his mouth open in a shout, in Barcelona’s shirt printed “Final London 2011”; a Manchester United defender stands behind him.",
+        "es": "Lionel Messi corre con los brazos abiertos y gritando, con la camiseta del Barcelona que lleva impreso «Final London 2011»; detrás, un defensor del Manchester United."
+      },
+      "notes": "Event verified from details inside the frame, not from the shirt colours alone.",
+      "moments": [
+        "mom-wembley-2011"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "barcelona-european-night-2011.jpg",
+      "chapter": "years",
+      "placement": "main:years-c"
+    },
+    {
+      "id": "opening-argentina-portrait",
+      "file": "src/assets/pics/opening-argentina-portrait.jpg .jpg",
+      "sha256": "fc55de80f8519871383aaeaf1db06ec2851dfebad5d192d99129a70c34afa501",
+      "slot": "opening",
+      "status": "approved",
+      "tentativeIdentity": "Lionel Messi from behind, arms open, in an Argentina home shirt with the captain’s armband, facing a stand of Argentina supporters. A “MESSI 10” banner and an Argentine flag hang in the crowd.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "recognition; a quiet greeting between player and crowd",
+      "focal": {
+        "desktop": [
+          50,
+          83
+        ],
+        "mobile": [
+          50,
+          82
+        ]
+      },
+      "preferredCrop": "Tall. Keep the number 10 and the banners; the grass can go.",
+      "photographer": "",
+      "source": {
+        "en": "Edited image carrying two marks: “Aslam.cp” and “X : iiRZ9”",
+        "es": "Imagen editada con dos marcas: «Aslam.cp» y «X : iiRZ9»"
+      },
+      "honours": [],
+      "caption": {
+        "en": "Lionel Messi in front of Argentina supporters. The match and date have not been identified. This is an edited image; its editors’ marks are visible.",
+        "es": "Lionel Messi frente a hinchas argentinos. No se identificó el partido ni la fecha. Es una imagen editada; se ven las marcas de quienes la editaron."
+      },
+      "alt": {
+        "en": "Lionel Messi seen from behind in Argentina’s sky-blue and white number 10 shirt, arms spread wide, facing a packed stand of supporters with a “Messi 10” banner.",
+        "es": "Lionel Messi de espaldas con la camiseta celeste y blanca número 10 de Argentina, los brazos abiertos, frente a una tribuna repleta con una bandera que dice «Messi 10»."
+      },
+      "notes": "Colour-graded edit, possibly a composite. Not a documentary original, so it is captioned as an edited image and tied to no match. The shirt alone is not used to date it.",
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "opening-argentina-portrait.jpg .jpg",
+      "chapter": "opening",
+      "placement": "main:opening"
+    },
+    {
+      "id": "argentina-copa-2016",
+      "file": "src/assets/pics/argentina-copa-2016.jpg",
+      "sha256": "07319ee3e1c83cbc537426beed89657ea19c006e846928d489aa2cb81170fa9d",
+      "slot": "nights-a",
+      "status": "approved",
+      "tentativeIdentity": "Messi, clean-shaven, with a runners-up medal, walking past the Copa América trophy; team-mates in tracksuits behind.",
+      "verifiedEvent": "After the 2015 Copa América final, Chile 0–0 Argentina (4–1 on penalties), Estadio Nacional, Santiago, 4 July 2015. Verified from the “Copa América Chile 2015” sleeve patch and the traditional trophy. The 2016 Centenario used a different trophy, and Messi wore a beard at that tournament.",
+      "eventDate": "2015-07-04",
+      "photoDate": "2015-07-04",
+      "year": 2015,
+      "emotion": "loss",
+      "focal": {
+        "desktop": [
+          64,
+          50
+        ],
+        "mobile": [
+          64,
+          50
+        ]
+      },
+      "preferredCrop": "Square. Keep the trophy and his face.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "arg-final-2015"
+      ],
+      "caption": {
+        "en": "After the Copa América final, Santiago, 4 July 2015.",
+        "es": "Después de la final de la Copa América, Santiago, 4 de julio de 2015."
+      },
+      "alt": {
+        "en": "Lionel Messi, a medal around his neck and his eyes down, walks past the silver Copa América trophy; team-mates in tracksuits wait behind him.",
+        "es": "Lionel Messi, con una medalla al cuello y la mirada baja, pasa junto a la Copa América plateada; detrás esperan compañeros con el buzo puesto."
+      },
+      "notes": "FILENAME DISAGREES WITH THE PICTURE. The file is named “2016” but the frame shows the 2015 final ceremony. It is placed and captioned as 2015.",
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "argentina-copa-2016.jpg",
+      "chapter": "nights",
+      "placement": "main:nights-a"
+    },
+    {
+      "id": "rosario-childhood",
+      "file": "src/assets/pics/rosario-childhood.png",
+      "sha256": "12ebb9441a73e727c7368aea15ad494e188bddb334b18edd6fe6adec44f28ac8",
+      "slot": "beginning-main",
+      "status": "approved",
+      "tentativeIdentity": "A boy in a 1990s Newell’s Old Boys shirt (Yamaha sponsor) keeping a ball up in a yard.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "innocence",
+      "focal": {
+        "desktop": [
+          50,
+          35
+        ],
+        "mobile": [
+          50,
+          35
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Supplied as a childhood photograph: a boy in a Newell’s Old Boys shirt. Its origin has not been confirmed.",
+        "es": "Aportada como una foto de la infancia: un chico con la camiseta de Newell’s Old Boys. No se confirmó su origen."
+      },
+      "alt": {
+        "en": "A boy in a red and black Newell’s Old Boys shirt keeps a football in the air in a yard with trees behind.",
+        "es": "Un chico con la camiseta rojinegra de Newell’s Old Boys hace jueguito con una pelota en un patio, con árboles detrás."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: The framing, focus and colour look like a modern staged image (a film or advertising re-enactment with a child actor), not a 1990s family or club photograph. It cannot be presented as a photograph of Messi as a child until its origin is known. If the owner can name the source and it is a genuine childhood photograph, set status to \"approved\", slot to \"beginning-main\", and add a caption.",
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "rosario-childhood.png",
+      "chapter": "beginning",
+      "placement": "main:beginning-main"
+    },
+    {
+      "id": "copa-america-2021-kneel",
+      "file": "src/assets/pics/copa-america-2021-kneel.jpg",
+      "sha256": "0a5caf2e4934285f3498dc1397553e5cad659e8341ca2e5da62a788686408caa",
+      "slot": "return-main",
+      "status": "approved",
+      "tentativeIdentity": "Messi on his knees, fists clenched, in the 2021 Argentina home shirt with the captain’s armband and a Copa América sleeve patch. Consistent with the final whistle of the final v Brazil, Maracanã, 10 July 2021.",
+      "verifiedEvent": "Copa América 2021 (verified from the kit and the tournament sleeve patch). The specific match is not proved by the frame.",
+      "eventDate": "2021-07-10 (tentative)",
+      "photoDate": "",
+      "year": 2021,
+      "emotion": "relief; release",
+      "focal": {
+        "desktop": [
+          50,
+          35
+        ],
+        "mobile": [
+          50,
+          35
+        ]
+      },
+      "preferredCrop": "Portrait. Keep the whole kneeling figure.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "arg-copa-2021"
+      ],
+      "moments": [
+        "mom-copa-2021"
+      ],
+      "caption": {
+        "en": "On his knees at the 2021 Copa América. Widely published as the final whistle at the Maracanã, 10 July 2021; this copy carries no agency caption.",
+        "es": "De rodillas en la Copa América 2021. Publicada habitualmente como el pitazo final en el Maracaná, el 10 de julio de 2021; esta copia no trae epígrafe de agencia."
+      },
+      "alt": {
+        "en": "Lionel Messi kneels on the grass with his head bowed and both fists clenched in front of him, in Argentina’s 2021 shirt.",
+        "es": "Lionel Messi arrodillado en el césped, con la cabeza gacha y los dos puños apretados delante del pecho, con la camiseta argentina de 2021."
+      },
+      "notes": "The tournament is verified; the match is very likely the final but is stated as “widely published as”.",
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "copa-america-2021-kneel.jpg",
+      "chapter": "return",
+      "placement": "main:return-main"
+    },
+    {
+      "id": "barcelona-farewell",
+      "file": "src/assets/pics/barcelona-farewell.jpg",
+      "sha256": "d829284efbf8fd136919f233fafb3276e723d472b3765d20c8135fdc2496c525",
+      "slot": "return-b",
+      "status": "approved",
+      "tentativeIdentity": "Messi in a suit at an FC Barcelona lectern, head bowed, a hand over his face.",
+      "verifiedEvent": "Farewell press conference, Auditori 1899, Camp Nou, 8 August 2021. Verified from the club lectern and backdrop and the unmistakable occasion.",
+      "eventDate": "2021-08-08",
+      "photoDate": "2021-08-08",
+      "year": 2021,
+      "emotion": "grief; a goodbye he did not choose",
+      "focal": {
+        "desktop": [
+          50,
+          35
+        ],
+        "mobile": [
+          50,
+          35
+        ]
+      },
+      "preferredCrop": "4:5. Keep the bowed head and the lectern’s lettering.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Farewell press conference, Camp Nou, 8 August 2021.",
+        "es": "Conferencia de despedida, Camp Nou, 8 de agosto de 2021."
+      },
+      "alt": {
+        "en": "Lionel Messi, in a dark suit, bows his head and covers his mouth with one hand at a lectern marked FC Barcelona.",
+        "es": "Lionel Messi, de traje oscuro, baja la cabeza y se tapa la boca con una mano frente a un atril con la inscripción FC Barcelona."
+      },
+      "notes": "The club farewell. Kept small and in its 2021 position so it is not mistaken for the international farewell.",
+      "moments": [
+        "mom-fcb-farewell-2021"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "barcelona-farewell.jpg",
+      "chapter": "return",
+      "placement": "main:return-b"
+    },
+    {
+      "id": "rome-2009-trophy",
+      "file": "src/assets/pics/2006_ucl.jpg",
+      "sha256": "a7899265272cd00ae14cfdfc40c8c678461a9a7fd61e6927fa92965ba8bc5d88",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi, medal round his neck, lifting the Champions League trophy in the halved 2008–09 Barcelona shirt.",
+      "verifiedEvent": "After the UEFA Champions League final, Rome, 27 May 2009. Verified from the 2008–09 shirt, the trophy and the medal.",
+      "eventDate": "2009-05-27",
+      "photoDate": "2009-05-27",
+      "year": 2009,
+      "emotion": "joy",
+      "focal": {
+        "desktop": [
+          40,
+          35
+        ],
+        "mobile": [
+          40,
+          35
+        ]
+      },
+      "preferredCrop": "Portrait.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-ucl-2008-09"
+      ],
+      "caption": {
+        "en": "With the Champions League trophy, Rome, 27 May 2009.",
+        "es": "Con la Copa de la Liga de Campeones, Roma, 27 de mayo de 2009."
+      },
+      "alt": {
+        "en": "Lionel Messi laughs as he lifts the big-eared Champions League trophy, in Barcelona’s half-blue, half-claret shirt.",
+        "es": "Lionel Messi ríe mientras levanta la «Orejona», con la camiseta mitad azul y mitad grana del Barcelona."
+      },
+      "notes": "FILENAME DISAGREES WITH THE PICTURE. The file is named “2006” but the shirt is the 2008–09 one, worn in the 2009 final. He did not play in the 2006 final. Captioned as 2009.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "2006_ucl.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "berlin-2015-trophy",
+      "file": "src/assets/pics/2015_ucl.jpg",
+      "sha256": "269393135f75836db4f0de39e9ebde239609e945f19c08d85111997c3c84d2e3",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Luis Suárez (Uruguay flag on his shoulders), Messi and Neymar (headband) holding the Champions League trophy.",
+      "verifiedEvent": "After the UEFA Champions League final, Barcelona 3–1 Juventus, Olympiastadion, Berlin, 6 June 2015. Verified from the three players together with the trophy in that season’s training tops.",
+      "eventDate": "2015-06-06",
+      "photoDate": "2015-06-06",
+      "year": 2015,
+      "emotion": "joy; friendship",
+      "focal": {
+        "desktop": [
+          50,
+          35
+        ],
+        "mobile": [
+          50,
+          35
+        ]
+      },
+      "preferredCrop": "Landscape.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-ucl-2014-15"
+      ],
+      "caption": {
+        "en": "With Luis Suárez and Neymar and the Champions League trophy, Berlin, 6 June 2015.",
+        "es": "Con Luis Suárez y Neymar y la Copa de la Liga de Campeones, Berlín, 6 de junio de 2015."
+      },
+      "alt": {
+        "en": "Luis Suárez, Lionel Messi and Neymar crouch together on the pitch, laughing, all three with a hand on the Champions League trophy.",
+        "es": "Luis Suárez, Lionel Messi y Neymar agachados en la cancha, riendo, los tres con una mano en la Copa de la Liga de Campeones."
+      },
+      "notes": "",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "2015_ucl.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "kneeling-2026-away",
+      "file": "src/assets/pics/2026_wc.jpg",
+      "sha256": "0c099feef0dcd219a84fbfa1fc75eaf07dba570bb086ae8fb621c3173e4f6cdd",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi kneeling on the pitch, seen from behind, in a dark shirt with a blue swirling pattern and “Messi 10”.",
+      "verifiedEvent": "Argentina’s dark away shirt of 2026 (identified from the design). The match is not identified.",
+      "eventDate": "",
+      "photoDate": "",
+      "year": 2026,
+      "emotion": "exhaustion or prayer; not known",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "4:5.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Kneeling in Argentina’s dark away shirt, 2026. The match has not been identified.",
+        "es": "De rodillas con la camiseta alternativa oscura de Argentina, 2026. No se identificó el partido."
+      },
+      "alt": {
+        "en": "Lionel Messi kneels on the grass with his back to the camera and his head bowed, in a dark patterned number 10 shirt.",
+        "es": "Lionel Messi arrodillado en el césped, de espaldas a la cámara y con la cabeza gacha, con una camiseta oscura estampada con el número 10."
+      },
+      "notes": "Supplied as a 2026 World Cup picture. Nothing in the frame shows which match it is, so it is not attached to the final.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "2026_wc.jpg",
+      "chapter": "continued",
+      "placement": "gallery:continued"
+    },
+    {
+      "id": "boots-off",
+      "file": "src/assets/pics/a55f26507490f14fd2a17d1b5ce20569.jpg",
+      "sha256": "fb25d9a6c9b5875bb6f461d4bb73a3d4001e016e903ec53135a9e009528ac7e1",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "A tattooed left leg, sock rolled down, beside a pair of boots that have been taken off on the grass. The tattoos include a number 10, a club crest and the name Thiago.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "rest; the end of a day",
+      "focal": {
+        "desktop": [
+          50,
+          50
+        ],
+        "mobile": [
+          50,
+          50
+        ]
+      },
+      "preferredCrop": "As supplied.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Boots off. The tattoos on his left leg include the number 10 and his son Thiago’s name. The date and match have not been identified.",
+        "es": "Los botines ya afuera. Entre los tatuajes de la pierna izquierda están el número 10 y el nombre de su hijo Thiago. No se identificó la fecha ni el partido."
+      },
+      "alt": {
+        "en": "A footballer’s tattooed lower leg stretched out on the grass, the sock pushed down to the ankle, next to a pair of pale blue and white boots.",
+        "es": "La pierna tatuada de un futbolista extendida sobre el césped, con la media baja hasta el tobillo, junto a un par de botines celestes y blancos."
+      },
+      "notes": "The file is supplied turned on its side and is shown as supplied.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "a55f26507490f14fd2a17d1b5ce20569.jpg",
+      "chapter": "gracias",
+      "placement": "gallery:gracias"
+    },
+    {
+      "id": "getafe-2007",
+      "file": "src/assets/pics/ankara_messi.jpg",
+      "sha256": "1298969bbcd5e1aaf2735d3ad252b6c6ae25551ccb11fc5be6374e4006a961f7",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi in the 2006–07 Barcelona shirt dribbling between Getafe players in green; one shirt reads “Belenguer 4”.",
+      "verifiedEvent": "Barcelona v Getafe, 2006–07 season (verified from both kits and the named opponent). The specific match is not proved by the frame.",
+      "eventDate": "2007-04-18 (tentative)",
+      "photoDate": "",
+      "year": 2007,
+      "emotion": "wonder",
+      "focal": {
+        "desktop": [
+          40,
+          40
+        ],
+        "mobile": [
+          40,
+          40
+        ]
+      },
+      "preferredCrop": "4:5.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Against Getafe, 2006–07 season. Widely published as the run of 18 April 2007; this copy carries no agency caption.",
+        "es": "Contra el Getafe, temporada 2006–07. Publicada habitualmente como la corrida del 18 de abril de 2007; esta copia no trae epígrafe de agencia."
+      },
+      "alt": {
+        "en": "Lionel Messi, long-haired, drives the ball between three Getafe players in green who close in on him.",
+        "es": "Lionel Messi, de pelo largo, lleva la pelota entre tres jugadores del Getafe, de verde, que se le cierran."
+      },
+      "notes": "",
+      "moments": [
+        "mom-getafe-2007"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "ankara_messi.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "ballon-display",
+      "file": "src/assets/pics/ballondor.jpg",
+      "sha256": "ac4c7610e190b5d4d575edcf4d1d265c55a4ddd87a8270c97f3f23fdb682eeb4",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi in a velvet jacket behind a glass display of eight Ballon d’Or trophies.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "ind-ballon-2023"
+      ],
+      "caption": {
+        "en": "Behind a display of Ballon d’Or trophies. This copy shows eight and may have been edited; the occasion has not been confirmed.",
+        "es": "Detrás de una vitrina de Balones de Oro. Esta copia muestra ocho y puede estar editada; no se confirmó la ocasión."
+      },
+      "alt": {
+        "en": "Lionel Messi, in a dark velvet jacket, smiles behind two glass shelves holding eight golden-ball trophies.",
+        "es": "Lionel Messi, con saco de terciopelo oscuro, sonríe detrás de dos estantes de vidrio con ocho trofeos con forma de pelota dorada."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: The setting matches the 2019 ceremony, when he had six. Eight trophies in this setting suggests the image has been altered. It needs a source before it can sit in an archive of verified honours.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "ballondor.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "bernabeu-2017",
+      "file": "src/assets/pics/bernebeue_shirt.jpg",
+      "sha256": "efd05beb16131ccd529f1d959c595b9d8c5d60ae14104ecd0e62920ab6174552",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi, bearded, in a blue undershirt, holding his Barcelona number 10 shirt up by the shoulders towards the stands.",
+      "verifiedEvent": "Real Madrid 2–3 Barcelona, Santiago Bernabéu, 23 April 2017. Verified from the 2016–17 shirt and a celebration he made once.",
+      "eventDate": "2017-04-23",
+      "photoDate": "2017-04-23",
+      "year": 2017,
+      "emotion": "defiance",
+      "focal": {
+        "desktop": [
+          55,
+          35
+        ],
+        "mobile": [
+          55,
+          35
+        ]
+      },
+      "preferredCrop": "Portrait. Keep the whole shirt.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "The shirt held up to the Bernabéu, 23 April 2017.",
+        "es": "La camiseta frente al Bernabéu, 23 de abril de 2017."
+      },
+      "alt": {
+        "en": "Lionel Messi holds his Barcelona shirt out at arm’s length, the name and number 10 facing a wall of spectators.",
+        "es": "Lionel Messi sostiene su camiseta del Barcelona con los brazos extendidos, con el nombre y el 10 hacia una tribuna repleta."
+      },
+      "notes": "",
+      "moments": [
+        "mom-bernabeu-2017"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "bernebeue_shirt.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "first-and-last-artwork",
+      "file": "src/assets/pics/closing-argentina.jpg",
+      "sha256": "d3238734557109b8ccaf70b66716382e57f42ffb8bb40fc26d059dcb3baf8f5a",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Artwork titled “First and Last”: a young Messi in a number 19 shirt, back to back with an older Messi in the number 10.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "“First and Last”: a digital artwork, not a photograph. Artist not recorded.",
+        "es": "«First and Last»: una obra digital, no una fotografía. Sin registro de quién la hizo."
+      },
+      "alt": {
+        "en": "Artwork: a young Messi in a number 19 Argentina shirt stands back to back with an older Messi in the number 10.",
+        "es": "Ilustración: un Messi joven con la 19 de Argentina, espalda con espalda con un Messi mayor con la 10."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: A digital artwork by an unknown artist, possibly generated, not a photograph. The brief rules out generated or invented images of him, so it is not used for the ending. The ending uses the farewell shirt photograph instead.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "closing-argentina.jpg",
+      "chapter": "gracias",
+      "placement": "gallery:gracias"
+    },
+    {
+      "id": "club-world-cup-2009",
+      "file": "src/assets/pics/club_worldcup.jpg",
+      "sha256": "566ebaa74a82648d73b21726680b7a7febf279d99388d653364298c11991c130",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi holding the Golden Ball award of the FIFA Club World Cup, in the 2009–10 Barcelona shirt with the tournament patch on the sleeve.",
+      "verifiedEvent": "FIFA Club World Cup, Abu Dhabi, December 2009. Verified from the tournament sleeve patch and the award.",
+      "eventDate": "2009-12-19",
+      "photoDate": "2009-12-19",
+      "year": 2009,
+      "emotion": "pride",
+      "focal": {
+        "desktop": [
+          50,
+          30
+        ],
+        "mobile": [
+          50,
+          30
+        ]
+      },
+      "preferredCrop": "Tall.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-cwc-2009",
+        "ind-cwcball-2009"
+      ],
+      "caption": {
+        "en": "With the Golden Ball of the FIFA Club World Cup, Abu Dhabi, December 2009.",
+        "es": "Con el Balón de Oro del Mundial de Clubes, Abu Dabi, diciembre de 2009."
+      },
+      "alt": {
+        "en": "Lionel Messi holds a golden ball trophy against his chest while photographers crowd behind him.",
+        "es": "Lionel Messi sostiene contra el pecho un trofeo con forma de pelota dorada, con fotógrafos amontonados detrás."
+      },
+      "notes": "A colour-graded copy.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "club_worldcup.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "copa-del-rey-2015",
+      "file": "src/assets/pics/copa_del_rey.jpg",
+      "sha256": "c514b6d6495f39d2bb4b95c51462a3c7c2679c1179540fd7155704560954431e",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi crouching beside the Copa del Rey trophy on the pitch, in the 2014–15 Barcelona shirt with a final patch on the sleeve.",
+      "verifiedEvent": "Copa del Rey final, Barcelona 3–1 Athletic Club, Camp Nou, 30 May 2015. Verified from the trophy and the 2014–15 shirt.",
+      "eventDate": "2015-05-30",
+      "photoDate": "2015-05-30",
+      "year": 2015,
+      "emotion": "contentment",
+      "focal": {
+        "desktop": [
+          50,
+          30
+        ],
+        "mobile": [
+          50,
+          30
+        ]
+      },
+      "preferredCrop": "Portrait.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-copadelrey-2014-15"
+      ],
+      "caption": {
+        "en": "With the Copa del Rey, Camp Nou, 30 May 2015.",
+        "es": "Con la Copa del Rey, Camp Nou, 30 de mayo de 2015."
+      },
+      "alt": {
+        "en": "Lionel Messi crouches on the grass with both hands on the Copa del Rey trophy, smiling slightly at the camera.",
+        "es": "Lionel Messi en cuclillas sobre el césped, con las dos manos en la Copa del Rey y una media sonrisa a la cámara."
+      },
+      "notes": "The copy supplied has a painterly filter applied by an editor.",
+      "moments": [
+        "mom-athletic-2015"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "copa_del_rey.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "trophy-mountain-artwork",
+      "file": "src/assets/pics/e95c66c3b8ed5022e8d3dc0740d706cc.jpg",
+      "sha256": "87e8d58effb76de18823d08b9ca0a106ea0fe185f518f86ad5d8ee300817174f",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Artwork: a child in an Argentina shirt sitting on a mountain of trophies and shirts.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "A digital artwork, not a photograph: a boy on a mountain of trophies. Artist not recorded.",
+        "es": "Una obra digital, no una fotografía: un chico sobre una montaña de trofeos. Sin registro de quién la hizo."
+      },
+      "alt": {
+        "en": "Artwork: a child in an Argentina shirt sits on top of a great pile of trophies and football shirts.",
+        "es": "Ilustración: un chico con la camiseta argentina sentado sobre una gran pila de trofeos y camisetas."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: A digital artwork, possibly generated, not a photograph.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "e95c66c3b8ed5022e8d3dc0740d706cc.jpg",
+      "chapter": "continued",
+      "placement": "gallery:continued"
+    },
+    {
+      "id": "the-best-composite",
+      "file": "src/assets/pics/fifa_the_best.jpg",
+      "sha256": "27cadc40d23d6e66d81eeae7990adea9c652950402b030deadd1d4d97651652e",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi smiling behind three The Best trophies with confetti.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "ind-thebest-2023"
+      ],
+      "caption": {
+        "en": "A digital composite: three The Best trophies in one frame.",
+        "es": "Un montaje digital: tres trofeos The Best en una misma imagen."
+      },
+      "alt": {
+        "en": "Lionel Messi smiles behind three silver The Best trophies, with confetti in the air.",
+        "es": "Lionel Messi sonríe detrás de tres trofeos plateados The Best, con papelitos en el aire."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: A digital composite, not a photograph of one occasion.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "fifa_the_best.jpg",
+      "chapter": "qatar",
+      "placement": "gallery:qatar"
+    },
+    {
+      "id": "finalissima-2022",
+      "file": "src/assets/pics/finalissima-2022.jpg",
+      "sha256": "a288e24ebbb641ddc29eb871d33d05b969447bb29b4d30d6a01de12c497c854f",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi thrown into the air by team-mates in the 2022 Argentina shirt; shirts below read “Montiel” and “E. Martínez 23”.",
+      "verifiedEvent": "Argentina celebration in the 2022 home shirt (verified from the kit and named team-mates). The match is not proved by the frame.",
+      "eventDate": "2022-06-01 (tentative)",
+      "photoDate": "",
+      "year": 2022,
+      "emotion": "joy",
+      "focal": {
+        "desktop": [
+          45,
+          25
+        ],
+        "mobile": [
+          45,
+          25
+        ]
+      },
+      "preferredCrop": "Tall.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "arg-finalissima-2022"
+      ],
+      "caption": {
+        "en": "Thrown into the air by his team-mates in the 2022 shirt. Widely published as the celebration at Wembley after the Finalissima, 1 June 2022; this copy carries no agency caption.",
+        "es": "Sus compañeros lo lanzan al aire, con la camiseta de 2022. Publicada habitualmente como el festejo en Wembley tras la Finalissima, el 1 de junio de 2022; esta copia no trae epígrafe de agencia."
+      },
+      "alt": {
+        "en": "Lionel Messi lies back in mid-air, arms out and smiling, above a ring of team-mates’ raised hands.",
+        "es": "Lionel Messi recostado en el aire, con los brazos abiertos y sonriendo, sobre un círculo de manos de sus compañeros."
+      },
+      "notes": "",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "finalissima-2022.jpg",
+      "chapter": "return",
+      "placement": "gallery:return"
+    },
+    {
+      "id": "golden-shoes-composite",
+      "file": "src/assets/pics/golden_boots.jpg",
+      "sha256": "8862076dc436e31772899d53418b06534aafd02b436e33b7408ab2e053d915e3",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi from behind in the 2018–19 Barcelona shirt with six Golden Shoe trophies arranged on the floor.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "ind-shoe-2018-19"
+      ],
+      "caption": {
+        "en": "A digital composite: six Golden Shoes arranged behind him.",
+        "es": "Un montaje digital: seis Botas de Oro dispuestas detrás de él."
+      },
+      "alt": {
+        "en": "Lionel Messi seen from behind in Barcelona’s number 10 shirt, both arms raised, with six golden boot trophies on the floor.",
+        "es": "Lionel Messi de espaldas con la 10 del Barcelona y los dos brazos en alto, con seis trofeos con forma de botín dorado en el piso."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: A digital composite.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "golden_boots.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "rosario-gracias-shirt",
+      "file": "src/assets/pics/gracias_messi.jpeg",
+      "sha256": "c357cb9e42439f628a8070c2024d8a539f49cb87f345561b34d61b941e2acf9e",
+      "slot": "continued-b",
+      "status": "approved",
+      "tentativeIdentity": "Aerial view of a giant sky-blue and white shirt reading “Gracias 10” in gold, laid out on the esplanade of a monument, with an Argentine flag flying beside it.",
+      "verifiedEvent": "Installation in front of the Monumento Nacional a la Bandera, Rosario, 5 October 2026, laid out by Adidas before the farewell match. Verified from independent reports describing the same shirt, wording and place.",
+      "eventDate": "2026-10-05",
+      "photoDate": "",
+      "year": 2026,
+      "emotion": "gratitude; a city",
+      "focal": {
+        "desktop": [
+          50,
+          50
+        ],
+        "mobile": [
+          50,
+          50
+        ]
+      },
+      "preferredCrop": "4:5.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "Rosario, 5 October 2026. A shirt more than thirty metres long reading “Gracias 10”, laid out in front of the Monumento a la Bandera before the farewell match.",
+        "es": "Rosario, 5 de octubre de 2026. Una camiseta de más de treinta metros con la leyenda «Gracias 10», desplegada frente al Monumento a la Bandera antes del partido de despedida."
+      },
+      "alt": {
+        "en": "Seen from above, a giant Argentina shirt with “Gracias” and a gold 10 covers a paved square; people beside it are the size of specks.",
+        "es": "Vista desde arriba, una camiseta argentina gigante con la palabra «Gracias» y un 10 dorado cubre una explanada; al lado, las personas se ven como puntos."
+      },
+      "notes": "A very small file (399 pixels wide).",
+      "moments": [
+        "mom-rosario-shirt-2026"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "gracias_messi.jpeg",
+      "chapter": "continued",
+      "placement": "main:continued-b"
+    },
+    {
+      "id": "la-liga-trophy-2019",
+      "file": "src/assets/pics/laliga_trophy.jpg",
+      "sha256": "ed2edc35f08f6b46278344893c30adbe5f7f755aae83891f966b3cd9917c1853",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi, bearded, lowering his face to the La Liga trophy, in the 2018–19 Barcelona shirt.",
+      "verifiedEvent": "La Liga trophy, 2018–19 season (verified from the shirt and the trophy). The exact date is not proved by the frame.",
+      "eventDate": "2019-04-27 (tentative)",
+      "photoDate": "",
+      "year": 2019,
+      "emotion": "tenderness",
+      "focal": {
+        "desktop": [
+          45,
+          30
+        ],
+        "mobile": [
+          45,
+          30
+        ]
+      },
+      "preferredCrop": "4:5.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-laliga-2018-19"
+      ],
+      "caption": {
+        "en": "With the La Liga trophy in the 2018–19 shirt.",
+        "es": "Con el trofeo de la Liga, con la camiseta de 2018–19."
+      },
+      "alt": {
+        "en": "Lionel Messi bends his head to the rim of the La Liga trophy, which someone out of frame is handing to him.",
+        "es": "Lionel Messi inclina la cabeza hacia el borde del trofeo de la Liga, que alguien fuera de cuadro le está entregando."
+      },
+      "notes": "The background has been darkened by an editor.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "laliga_trophy.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "farewell-shirt",
+      "file": "src/assets/pics/last_match_jersey.jpg",
+      "sha256": "d06072ed64658c2213f92c02a78bd0de9f6b0766feb09b6595e435f2589e426d",
+      "slot": "gracias",
+      "status": "approved",
+      "tentativeIdentity": "A dark-haired man in a navy track jacket, seen from behind, looking at an Argentina shirt on a hanger lettered “Messi 10” in gold.",
+      "verifiedEvent": "The shirt is the special design made for the farewell match of 6 October 2026 (verified from reports describing the gold number and the same sunburst pattern). Who the man is, and where and when the picture was taken, are not established.",
+      "eventDate": "",
+      "photoDate": "",
+      "year": 2026,
+      "emotion": "stillness; an ending",
+      "focal": {
+        "desktop": [
+          45,
+          40
+        ],
+        "mobile": [
+          45,
+          40
+        ]
+      },
+      "preferredCrop": "Portrait. Keep the number.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "The number 10 shirt made for the farewell match, lettered in gold.",
+        "es": "La camiseta número 10 hecha para el partido de despedida, con las letras en dorado."
+      },
+      "alt": {
+        "en": "A man seen from behind stands close to a hanging sky-blue and white shirt with “Messi” and a large 10 in gold; a pair of boots sits below.",
+        "es": "Un hombre de espaldas, muy cerca de una camiseta celeste y blanca colgada, con «Messi» y un gran 10 en dorado; debajo, un par de botines."
+      },
+      "notes": "Looks like a kit-launch photograph. Used as the closing image because it is quiet, back-facing and about the number, and because it claims nothing about the match itself.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "last_match_jersey.jpg",
+      "chapter": "gracias",
+      "placement": "main:gracias",
+      "mask": {
+        "desktop": {
+          "x": 50.1,
+          "y": 39.6,
+          "w": 4.8,
+          "h": 15.9
+        },
+        "mobile": {
+          "x": 50.1,
+          "y": 39.6,
+          "w": 4.8,
+          "h": 15.9
+        }
+      },
+      "focalCinematic": {
+        "desktop": [
+          48,
+          46
+        ],
+        "mobile": [
+          50,
+          46
+        ]
+      }
+    },
+    {
+      "id": "laureus-portrait",
+      "file": "src/assets/pics/laurens.jpg",
+      "sha256": "cee57d9866e0e9c2565ccc9bae050cc3f6559945b54721182a79a8df0b679414",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi seated behind five Laureus statuettes.",
+      "verifiedEvent": "",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "ind-laureus-2023"
+      ],
+      "caption": {
+        "en": "With Laureus statuettes. This copy shows five; the occasion has not been confirmed.",
+        "es": "Con estatuillas Laureus. Esta copia muestra cinco; no se confirmó la ocasión."
+      },
+      "alt": {
+        "en": "Lionel Messi, smiling in a dark jacket, sits behind five silver Laureus statuettes.",
+        "es": "Lionel Messi, sonriente y de saco oscuro, sentado detrás de cinco estatuillas plateadas de los Laureus."
+      },
+      "notes": " Published at the owner’s instruction of 7 October 2026 that every supplied image be used; the caption states what the image is. Earlier reason for holding it: The archive records two Laureus Sportsman awards (2020, 2023) and one team award; five statuettes do not match that. It may be genuine, from an occasion not yet researched, or altered. It needs a source.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "laurens.jpg",
+      "chapter": "qatar",
+      "placement": "gallery:qatar"
+    },
+    {
+      "id": "rome-2009-header",
+      "file": "src/assets/pics/man_u_ucl.jpg",
+      "sha256": "1394041cfaafd0c76ff5e71d7ad9cd73ffca09ca4910282a6a3b52d3309440c1",
+      "slot": "years-b",
+      "status": "approved",
+      "tentativeIdentity": "Messi in the air heading the ball; Manchester United goalkeeper Edwin van der Sar beneath it.",
+      "verifiedEvent": "UEFA Champions League final, Barcelona 2–0 Manchester United, Stadio Olimpico, Rome, 27 May 2009: his headed goal. Verified from the halved 2008–09 Barcelona shirt, the opposing goalkeeper and the Champions League boards.",
+      "eventDate": "2009-05-27",
+      "photoDate": "2009-05-27",
+      "year": 2009,
+      "emotion": "wonder",
+      "focal": {
+        "desktop": [
+          45,
+          30
+        ],
+        "mobile": [
+          45,
+          30
+        ]
+      },
+      "preferredCrop": "4:5. Keep the ball above the bar.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-ucl-2008-09"
+      ],
+      "caption": {
+        "en": "Champions League final, Rome, 27 May 2009.",
+        "es": "Final de la Liga de Campeones, Roma, 27 de mayo de 2009."
+      },
+      "alt": {
+        "en": "Lionel Messi hangs in the air, head tipped back, as the ball he has just headed loops over Manchester United’s goalkeeper towards the net.",
+        "es": "Lionel Messi suspendido en el aire, con la cabeza hacia atrás, mientras la pelota que acaba de cabecear pasa por encima del arquero del Manchester United rumbo a la red."
+      },
+      "notes": "Event verified from inside the frame.",
+      "moments": [
+        "mom-rome-2009"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "man_u_ucl.jpg",
+      "chapter": "years",
+      "placement": "main:years-b"
+    },
+    {
+      "id": "miami-mls-cup",
+      "file": "src/assets/pics/miami-chapter.jpg",
+      "sha256": "5ccd4e5cd73245266b93129a0776b31dbdcb9f43cbad56a0677cf03ddb25bb22",
+      "slot": "continued-a",
+      "status": "approved",
+      "tentativeIdentity": "Messi laughing, a medal ribbon round his neck, holding a large silver trophy in Inter Miami’s pink shirt; a team-mate’s cap reads “Champions”.",
+      "verifiedEvent": "Inter Miami trophy celebration (verified from the shirt). The trophy’s shape and the daylight are consistent with MLS Cup, 6 December 2025; the frame does not prove the date.",
+      "eventDate": "2025-12-06 (tentative)",
+      "photoDate": "",
+      "year": 2025,
+      "emotion": "joy",
+      "focal": {
+        "desktop": [
+          60,
+          35
+        ],
+        "mobile": [
+          60,
+          35
+        ]
+      },
+      "preferredCrop": "4:5. Keep his face and the bowl of the trophy.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "mia-mlscup-2025"
+      ],
+      "caption": {
+        "en": "With a trophy in Inter Miami’s shirt. Consistent with MLS Cup, 6 December 2025; this copy carries no agency caption.",
+        "es": "Con un trofeo y la camiseta de Inter Miami. Coincide con la MLS Cup del 6 de diciembre de 2025; esta copia no trae epígrafe de agencia."
+      },
+      "alt": {
+        "en": "Lionel Messi laughs with his eyes almost closed as he holds a large silver trophy in a pink Inter Miami shirt.",
+        "es": "Lionel Messi se ríe con los ojos casi cerrados mientras sostiene un gran trofeo plateado, con la camiseta rosa de Inter Miami."
+      },
+      "notes": "The file has a thin green line along its top edge, apparently from a screen capture. The resized copies trim the top 2%. The original is untouched.",
+      "moments": [
+        "mom-mlscup-2025"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "trim": {
+        "top": 2,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "label": "miami-chapter.jpg",
+      "chapter": "continued",
+      "placement": "main:continued-a"
+    },
+    {
+      "id": "paris-2022",
+      "file": "src/assets/pics/paris-chapter.jpg",
+      "sha256": "938157a5b9210097dd38f01cbea99f852e05efb4329410bd69a2ba9f9d760a73",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Paris Saint-Germain players with medals in front of a “Winner” board; the medal ribbons read “Trophée des Champions”. Messi in the centre with Neymar, Paredes, Icardi, Donnarumma and others.",
+      "verifiedEvent": "Trophée des Champions, Paris Saint-Germain 4–0 Nantes, Tel Aviv, 31 July 2022. Verified from the ribbons, the board and the squad.",
+      "eventDate": "2022-07-31",
+      "photoDate": "2022-07-31",
+      "year": 2022,
+      "emotion": "ease",
+      "focal": {
+        "desktop": [
+          50,
+          40
+        ],
+        "mobile": [
+          50,
+          40
+        ]
+      },
+      "preferredCrop": "4:5.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "psg-tdc-2022"
+      ],
+      "caption": {
+        "en": "Trophée des Champions, Tel Aviv, 31 July 2022.",
+        "es": "Trophée des Champions, Tel Aviv, 31 de julio de 2022."
+      },
+      "alt": {
+        "en": "Lionel Messi smiles in the middle of a huddle of Paris Saint-Germain team-mates, all wearing winners’ medals.",
+        "es": "Lionel Messi sonríe en medio de un grupo de compañeros del Paris Saint-Germain, todos con la medalla de campeón."
+      },
+      "notes": "The file is a phone screenshot: a back arrow and a menu icon sat at the top. The resized copies trim the top 7% to remove them. The original is untouched.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "trim": {
+        "top": 7,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "label": "paris-chapter.jpg",
+      "chapter": "continued",
+      "placement": "gallery:continued"
+    },
+    {
+      "id": "qatar-final-goal",
+      "file": "src/assets/pics/qatar-final-in-motion.jpg",
+      "sha256": "ff09455616669fad23e8b7bcd4621bab586f7c311754b228ef5ec79ca32c8710",
+      "slot": "qatar-before",
+      "status": "approved",
+      "tentativeIdentity": "Messi sliding on his knees with an arm raised; Alexis Mac Allister (20) and Julián Álvarez (9) running to him; a France player behind.",
+      "verifiedEvent": "World Cup final, Argentina v France, Lusail Stadium, 18 December 2022, during the match. Verified from the opponent, the team-mates’ numbers and the stadium boards.",
+      "eventDate": "2022-12-18",
+      "photoDate": "2022-12-18",
+      "year": 2022,
+      "emotion": "tension; a lead that would not hold",
+      "focal": {
+        "desktop": [
+          60,
+          55
+        ],
+        "mobile": [
+          60,
+          55
+        ]
+      },
+      "preferredCrop": "3:2. Keep the two team-mates arriving.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "arg-worldcup-2022"
+      ],
+      "caption": {
+        "en": "World Cup final, Lusail, 18 December 2022. During the match, before anyone knew how it would end.",
+        "es": "Final del Mundial, Lusail, 18 de diciembre de 2022. Durante el partido, cuando nadie sabía cómo iba a terminar."
+      },
+      "alt": {
+        "en": "Lionel Messi slides across the grass on one knee with his right arm raised, two team-mates sprinting towards him and the crowd on its feet behind.",
+        "es": "Lionel Messi se desliza por el césped sobre una rodilla, con el brazo derecho en alto; dos compañeros corren hacia él y la tribuna está de pie."
+      },
+      "notes": "The only large original supplied (5491 pixels wide).",
+      "moments": [
+        "mom-qatar-2022"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "qatar-final-in-motion.jpg",
+      "chapter": "qatar",
+      "placement": "main:qatar-before"
+    },
+    {
+      "id": "after-qatar-embrace",
+      "file": "src/assets/pics/qatar-human-moment.jpg",
+      "sha256": "6f0dba47cf8e06f1ff97ebb7b5fb2cce3da5a6e220ec53e2e6947aa9c61abad2",
+      "slot": "qatar-human",
+      "status": "approved",
+      "tentativeIdentity": "Messi smiling in an embrace with a grey-haired man seen from behind; his shirt has three stars and the gold world champions’ badge.",
+      "verifiedEvent": "Not the night of the final. The shirt carries the third star and the champions’ badge, which Argentina wore only after December 2022. Date, place and the other people are not identified.",
+      "eventDate": "",
+      "photoDate": "",
+      "year": null,
+      "emotion": "tenderness; relief",
+      "focal": {
+        "desktop": [
+          45,
+          35
+        ],
+        "mobile": [
+          45,
+          35
+        ]
+      },
+      "preferredCrop": "4:5. Keep his face and the hand on the other man’s back.",
+      "photographer": "",
+      "source": "",
+      "honours": [],
+      "caption": {
+        "en": "After Qatar. An embrace in the shirt with the third star and the world champions’ badge. The date and place have not been identified.",
+        "es": "Después de Qatar. Un abrazo con la camiseta de la tercera estrella y la insignia de campeón del mundo. No se identificó la fecha ni el lugar."
+      },
+      "alt": {
+        "en": "Lionel Messi smiles warmly, one tattooed arm around a grey-haired man whose back is to the camera.",
+        "es": "Lionel Messi sonríe con calidez, con un brazo tatuado sobre la espalda de un hombre canoso que está de espaldas a la cámara."
+      },
+      "notes": "FILENAME DISAGREES WITH THE PICTURE. Supplied as a Qatar moment; the badge shows it was taken later. It is used as the quiet frame after the celebration, with a caption that says so.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "qatar-human-moment.jpg",
+      "chapter": "qatar",
+      "placement": "main:qatar-human"
+    },
+    {
+      "id": "qatar-lift",
+      "file": "src/assets/pics/qatar-world-cup-lift.jpeg",
+      "sha256": "5c037800bd8b4b34801139740aa9179849b916dd5296538e5212837570cec835",
+      "slot": "qatar-release",
+      "status": "approved",
+      "tentativeIdentity": "Messi on Sergio Agüero’s shoulders holding the World Cup above his head inside Lusail Stadium.",
+      "verifiedEvent": "After the World Cup final, Lusail Stadium, 18 December 2022. Verified from the trophy, the match shirt and the stadium.",
+      "eventDate": "2022-12-18",
+      "photoDate": "2022-12-18",
+      "year": 2022,
+      "emotion": "release; joy",
+      "focal": {
+        "desktop": [
+          50,
+          35
+        ],
+        "mobile": [
+          50,
+          35
+        ]
+      },
+      "preferredCrop": "Portrait. Keep the trophy and Agüero’s face.",
+      "photographer": "",
+      "source": {
+        "en": "Social-media graphic carrying the DAZN mark",
+        "es": "Gráfica de redes sociales con la marca DAZN"
+      },
+      "honours": [
+        "arg-worldcup-2022"
+      ],
+      "caption": {
+        "en": "Lusail, 18 December 2022.",
+        "es": "Lusail, 18 de diciembre de 2022."
+      },
+      "alt": {
+        "en": "Lionel Messi, carried on Sergio Agüero’s shoulders, holds the World Cup above his head and shouts with joy under the stadium lights.",
+        "es": "Lionel Messi, en andas de Sergio Agüero, levanta la Copa del Mundo sobre la cabeza y grita de alegría bajo las luces del estadio."
+      },
+      "notes": "A very small file (495 pixels wide) carrying a broadcaster’s mark. It is the picture the film most needs at full size; a larger original would let it fill the screen.",
+      "moments": [
+        "mom-qatar-2022"
+      ],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "qatar-world-cup-lift.jpeg",
+      "chapter": "qatar",
+      "placement": "main:qatar-release"
+    },
+    {
+      "id": "uefa-super-cup-2009",
+      "file": "src/assets/pics/super_cup.jpg",
+      "sha256": "c924b436e9c5defe1791e1cc0db15e389314389df2627d89c7f8c57c5c2169f0",
+      "slot": null,
+      "status": "approved",
+      "tentativeIdentity": "Messi holding the UEFA Super Cup, the medal ribbon reading “UEFA Super Cup”, in the 2009–10 Barcelona shirt with the match patch.",
+      "verifiedEvent": "UEFA Super Cup, Barcelona 1–0 Shakhtar Donetsk, Monaco, 28 August 2009. Verified from the ribbon, the sleeve patch and the shirt.",
+      "eventDate": "2009-08-28",
+      "photoDate": "2009-08-28",
+      "year": 2009,
+      "emotion": "pride",
+      "focal": {
+        "desktop": [
+          45,
+          30
+        ],
+        "mobile": [
+          45,
+          30
+        ]
+      },
+      "preferredCrop": "Portrait.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "fcb-usc-2009"
+      ],
+      "caption": {
+        "en": "With the UEFA Super Cup, Monaco, 28 August 2009.",
+        "es": "Con la Supercopa de la UEFA, Mónaco, 28 de agosto de 2009."
+      },
+      "alt": {
+        "en": "Lionel Messi, hair wet, smiles as he holds the tall silver UEFA Super Cup beside his shoulder.",
+        "es": "Lionel Messi, con el pelo mojado, sonríe mientras sostiene a la altura del hombro la alta copa plateada de la Supercopa de la UEFA."
+      },
+      "notes": "A small file (432 pixels wide).",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "super_cup.jpg",
+      "chapter": "years",
+      "placement": "gallery:years"
+    },
+    {
+      "id": "beijing-2008-medals",
+      "file": "src/assets/pics/u_20_wc.jpg",
+      "sha256": "a7153b7e818187b1181b057c56020ae48e8de65ae6d5f340f1c0f724b6958148",
+      "slot": "beginning-b",
+      "status": "approved",
+      "tentativeIdentity": "Messi and Sergio Agüero laughing and showing gold medals on red ribbons printed with the Olympic rings and “Beijing 2008”, inside the Olympic stadium.",
+      "verifiedEvent": "After the Olympic football final, Argentina 1–0 Nigeria, Beijing National Stadium, 23 August 2008. Verified from the medals, their ribbons and the stadium.",
+      "eventDate": "2008-08-23",
+      "photoDate": "2008-08-23",
+      "year": 2008,
+      "emotion": "joy; youth",
+      "focal": {
+        "desktop": [
+          50,
+          45
+        ],
+        "mobile": [
+          50,
+          45
+        ]
+      },
+      "preferredCrop": "Square. Keep both faces and both medals.",
+      "photographer": "",
+      "source": "",
+      "honours": [
+        "arg-olympics-2008"
+      ],
+      "caption": {
+        "en": "Olympic gold with Sergio Agüero, Beijing, 23 August 2008.",
+        "es": "Oro olímpico con Sergio Agüero, Pekín, 23 de agosto de 2008."
+      },
+      "alt": {
+        "en": "A long-haired Lionel Messi and Sergio Agüero laugh as each holds up an Olympic gold medal.",
+        "es": "Lionel Messi, de pelo largo, y Sergio Agüero ríen mientras cada uno muestra su medalla de oro olímpica."
+      },
+      "notes": "FILENAME DISAGREES WITH THE PICTURE. The file is named “u_20_wc” but the frame shows the 2008 Olympic medals, not the 2005 under-20 tournament. Placed beside the 2008 date.",
+      "moments": [],
+      "usage": "Supplied by the site owner. Where the file came from and who holds the rights were not recorded. Not cleared for publication.",
+      "label": "u_20_wc.jpg",
+      "chapter": "beginning",
+      "placement": "main:beginning-b"
+    }
+  ]
+}

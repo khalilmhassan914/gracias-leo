@@ -1,0 +1,36 @@
+# Netlify build settings for Gracias, Leo.
+# The site is plain static files: five HTML pages, hashed assets, fonts, images and (later) audio.
+# No redirects or rewrites are needed, because every route is a real file:
+#   /            dist/index.html
+#   /es/         dist/es/index.html          /es/archivo/   dist/es/archivo/index.html
+#   /en/         dist/en/index.html          /en/archive/   dist/en/archive/index.html
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # SITE_URL = "https://your-address.example"   # or set siteUrl in site.config.json
+
+# Hashed build output and content-addressed image derivatives never change under the same name.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Audio keeps its filename when replaced, so it is revalidated.
+[[headers]]
+  for = "/audio/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

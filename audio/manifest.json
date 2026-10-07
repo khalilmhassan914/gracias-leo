@@ -1,0 +1,92 @@
+{
+  "about": "Written by scripts/prepare.mjs. The playlist is audio/0.mp3 to audio/9.mp3 in numeric order, repeating. Each track plays from start to end (seconds): silent padding at the edges is skipped and the last tenth is left out. The original files are not altered; the joined file is a separate copy in public/audio/.",
+  "playFraction": 0.9,
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "tracks": [
+    {
+      "n": 0,
+      "url": "/audio/0.mp3",
+      "duration": 56.005,
+      "start": 0,
+      "end": 50.405
+    },
+    {
+      "n": 1,
+      "url": "/audio/1.mp3",
+      "duration": 28.884,
+      "start": 0,
+      "end": 23.684
+    },
+    {
+      "n": 2,
+      "url": "/audio/2.mp3",
+      "duration": 35.711,
+      "start": 0.072,
+      "end": 29.836
+    },
+    {
+      "n": 3,
+      "url": "/audio/3.mp3",
+      "duration": 33.531,
+      "start": 0.092,
+      "end": 27.876
+    },
+    {
+      "n": 4,
+      "url": "/audio/4.mp3",
+      "duration": 40.751,
+      "start": 0.225,
+      "end": 34.387
+    },
+    {
+      "n": 5,
+      "url": "/audio/5.mp3",
+      "duration": 89.768,
+      "start": 0.101,
+      "end": 78.491
+    },
+    {
+      "n": 6,
+      "url": "/audio/6.mp3",
+      "duration": 29.325,
+      "start": 0,
+      "end": 26.392
+    },
+    {
+      "n": 7,
+      "url": "/audio/7.mp3",
+      "duration": 8.448,
+      "start": 0,
+      "end": 7.603
+    },
+    {
+      "n": 8,
+      "url": "/audio/8.mp3",
+      "duration": 22.709,
+      "start": 0.169,
+      "end": 20.33
+    },
+    {
+      "n": 9,
+      "url": "/audio/9.mp3",
+      "duration": 60.116,
+      "start": 0,
+      "end": 54.104
+    }
+  ],
+  "mix": {
+    "url": "/audio/playlist.mp3",
+    "duration": 351.369
+  }
+}
