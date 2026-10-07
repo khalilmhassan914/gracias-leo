@@ -52,6 +52,10 @@ npm run preview    # http://localhost:4173
 npm run check      # data, image coverage, audio paths, locale keys
 ```
 
+## Deployed
+
+Live on Vercel (Hobby plan, account `khalilmuhammadhassan8-9576`) at https://gracias-leo-seven.vercel.app since 7 October 2026, deployed with `npx vercel deploy --prod` from this folder. Source is in the private repository https://github.com/khalilmhassan914/gracias-leo. Git pushes do not deploy automatically; run the deploy command again after changes. The host has no ffmpeg, so it serves the committed `audio/playlist.mp3` and the offsets recorded in `audio/manifest.json`.
+
 ## Open items
 
 1. Farewell match (Argentina v Benin, 6 October 2026): still in play when last checked (53', 1–0). `src/data/events.js` says "scheduled". When a final report exists, follow the comments in that file and rebuild.

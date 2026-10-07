@@ -167,6 +167,9 @@ function prepareAudio() {
   const out = rel('public/audio');
   fs.rmSync(out, { recursive: true, force: true });
   const present = fs.existsSync(dir) ? fs.readdirSync(dir) : [];
+  // What an earlier build with ffmpeg measured. A host without ffmpeg reuses it.
+  const previous = readJson(path.join(dir, 'manifest.json'), null);
+  let measured = true;
   const tracks = [];
   for (let n = 0; n <= 9; n++) {
     const name = present.find((f) => f.toLowerCase() === `${n}.mp3`);   // filenames are case-sensitive on most hosts
@@ -186,15 +189,21 @@ function prepareAudio() {
       const lastStart = starts[starts.length - 1];
       if (duration && starts.length && (starts.length > ends.length || duration - ends[ends.length - 1] < 0.03) && lastStart > start) end = Math.min(duration, lastStart + 0.01);
     } catch { /* ffprobe and ffmpeg are optional; without them the files play from edge to edge */ }
+    if (!duration) { measured = false; const was = previous?.tracks?.find((t) => t.n === n); tracks.push(was || { n, url: `/audio/${n}.mp3`, duration: 0, start: 0, end: 0 }); continue; }
     tracks.push({ n, url: `/audio/${n}.mp3`, duration: +duration.toFixed(3), start: +start.toFixed(3), end: +(end || duration).toFixed(3) });
   }
   // Each track plays about nine tenths of its length: the measured content, less its last tenth.
-  for (const t of tracks) t.end = +(t.start + (t.end - t.start) * PLAY_FRACTION).toFixed(3);
+  if (measured) for (const t of tracks) t.end = +(t.start + (t.end - t.start) * PLAY_FRACTION).toFixed(3);
   // One continuous file: the ten trimmed tracks in order, joined with 0.12 s crossfades. A single
   // looping file is the most dependable thing to play on a phone. Needs ffmpeg at build time;
   // without it the player falls back to the separate files and the same offsets.
   let mix = null;
-  if (tracks.length > 1) {
+  if (tracks.length > 1 && !measured && fs.existsSync(path.join(dir, 'playlist.mp3'))) {
+    // no ffmpeg here: serve the joined file committed with the project
+    fs.copyFileSync(path.join(dir, 'playlist.mp3'), path.join(out, 'playlist.mp3'));
+    for (const t of tracks) fs.rmSync(path.join(out, `${t.n}.mp3`), { force: true });
+    mix = previous?.mix || { url: '/audio/playlist.mp3', duration: 0 };
+  } else if (tracks.length > 1) {
     const inputs = tracks.flatMap((t) => ['-i', path.join(dir, present.find((f) => f.toLowerCase() === `${t.n}.mp3`))]);
     const trims = tracks.map((t, k) => `[${k}:a]atrim=start=${t.start}:end=${t.end},asetpts=PTS-STARTPTS,aresample=44100,aformat=channel_layouts=stereo[a${k}]`);
     const fades = []; let last = 'a0';
@@ -210,8 +219,8 @@ function prepareAudio() {
       mix = { url: '/audio/playlist.mp3', duration: +d.toFixed(3) };
     } else console.warn(`audio: could not build the continuous file (${String(r.stderr || r.error || '').trim().slice(0, 200) || 'ffmpeg not available'}); the tracks will play from their own files`);
   }
-  // A readable record beside the originals.
-  fs.writeFileSync(path.join(dir, 'manifest.json'), `${JSON.stringify({
+  // A readable record beside the originals (left as it is when nothing could be measured).
+  if (measured) fs.writeFileSync(path.join(dir, 'manifest.json'), `${JSON.stringify({
     about: 'Written by scripts/prepare.mjs. The playlist is audio/0.mp3 to audio/9.mp3 in numeric order, repeating. Each track plays from start to end (seconds): silent padding at the edges is skipped and the last tenth is left out. The original files are not altered; the joined file is a separate copy in public/audio/.',
     playFraction: PLAY_FRACTION, order: tracks.map((t) => t.n), tracks, mix,
   }, null, 2)}\n`);

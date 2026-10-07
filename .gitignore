@@ -36,3 +36,4 @@ dist-ssr
 /original/
 /cinematic/
 /.og-*.html
+.vercel

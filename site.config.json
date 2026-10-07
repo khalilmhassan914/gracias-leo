@@ -1,12 +1,24 @@
 {
-  "siteUrl": "",
+  "siteUrl": "https://gracias-leo-seven.vercel.app",
   "author": {
     "name": "Khalil",
-    "country": { "en": "Nigeria", "es": "Nigeria" },
+    "country": {
+      "en": "Nigeria",
+      "es": "Nigeria"
+    },
     "links": [
-      { "label": "Snapchat", "url": "https://snapchat.com/t/RanNhOqY" },
-      { "label": "TikTok", "url": "https://www.tiktok.com/@khe_rleel" },
-      { "label": "Instagram", "url": "https://www.instagram.com/__.mk_h" }
+      {
+        "label": "Snapchat",
+        "url": "https://snapchat.com/t/RanNhOqY"
+      },
+      {
+        "label": "TikTok",
+        "url": "https://www.tiktok.com/@khe_rleel"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/__.mk_h"
+      }
     ]
   }
 }
