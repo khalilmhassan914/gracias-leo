@@ -205,7 +205,7 @@ export const honours = [
     team: L, date: '2026-08-31', state: 'announced',
     note: { en: 'Published on Instagram as a handwritten note dated 21 July 2026, two days after the World Cup final. He continues to play for Inter Miami.', es: 'Lo publicó en Instagram: una carta manuscrita fechada el 21 de julio de 2026, dos días después de la final del Mundial. Sigue jugando en Inter Miami.' },
   }),
-  item('arg-farewell-2026', 'argentina', 'event', 'farewell', '2026', 2026, 'C', 'continued', ['cnnes-farewell-2026', 'infobae-farewell-2026', 'lanacion-farewell-live-2026'], {
+  item('arg-farewell-2026', 'argentina', 'event', 'farewell', '2026', 2026, 'C', 'continued', ['espn-farewell-result-2026', 'bolavip-farewell-result-2026', 'cnnes-farewell-2026', 'infobae-farewell-2026'], {
     team: A, date: '2026-10-06', opponent: 'Benin', venue: 'Estadio Monumental, Buenos Aires',
     // The one field on this site that was still changing while it was being built. See events.js.
     state: 'see-events',

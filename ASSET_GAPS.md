@@ -14,7 +14,7 @@ No letter has been supplied. The ending shows a two-sentence thank-you in its pl
 
 ### The site address
 
-`siteUrl` in `site.config.json` is empty. Canonical links and the share image use relative addresses until it is set. Set it to the final address before deploying (see DEPLOYMENT.md).
+Set to https://gracias-leo-seven.vercel.app.
 
 ### Essential film photographs still missing
 

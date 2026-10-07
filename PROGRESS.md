@@ -58,7 +58,7 @@ Live on Vercel (Hobby plan, account `khalilmuhammadhassan8-9576`) at https://gra
 
 ## Open items
 
-1. Farewell match (Argentina v Benin, 6 October 2026): still in play when last checked (53', 1–0). `src/data/events.js` says "scheduled". When a final report exists, follow the comments in that file and rebuild.
+1. Farewell match recorded on 7 October 2026: Argentina 3–0 Benin, two assists and a goal for Messi (ESPN and Bolavip). In the source and pushed; **the live site has not been redeployed with it yet** (waiting for the owner's go-ahead).
 2. Owner's visual review of both experiences on desktop and phone. Likely first adjustments: the mask position of the zero (`mask` in `memories.json`), focal points, pin lengths (`end:` values in the two motion files), phone spacing in `film.css` (last block) and `cinematic.css`.
 3. Rights for the photographs before any public release. Site address in `site.config.json`. Personal letter (`letter/README.md`).
 4. A country-based default language needs a host feature (an edge function or redirect rule); not built.

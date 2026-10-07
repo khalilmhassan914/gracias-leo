@@ -38,7 +38,7 @@ export const filmSources = {
   qatar: ['canal26-martinez-2022', 'eltiempo-martinez-2022', 'wiki-final-2022', 'scotsman-final-2022'],
   continued: ['tnt-psg-2023', 'miami-leagues-2023', 'mls-shield-2024', 'mls-cup-mvp-2025', 'copaamerica-final-2024', 'nbc-copa-2024',
     'fifa-standings-2026', 'espn-final-2026', 'bein-records-2026', 'espn-retire-2026', 'lanacion-carta-2026',
-    'cnnes-farewell-2026', 'infobae-farewell-2026', 'reduno-shirt-2026', 'claro-shirt-2026', 'uba-1381', 'efe-uba-2026'],
+    'espn-farewell-result-2026', 'bolavip-farewell-result-2026', 'cnnes-farewell-2026', 'reduno-shirt-2026', 'claro-shirt-2026', 'uba-1381', 'efe-uba-2026'],
 };
 
 export const chapterIds = ['opening', 'beginning', 'years', 'nights', 'return', 'qatar', 'continued', 'letter', 'gracias'];
